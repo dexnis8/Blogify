@@ -7,6 +7,8 @@ import Discover from "./components/Discover";
 import Super from "./components/Super";
 import Steps from "./components/Steps";
 import Campaign from "./components/Campaign";
+import Testimonial from "./components/Testimonial";
+import FAQs from "./components/FAQ";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
         <Super />
         <Steps />
         <Campaign />
+        <Testimonial />
+        <FAQs />
       </div>
     </>
   );

@@ -30,7 +30,7 @@ const Campaign = () => {
             {/* One card(left) */}
             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((item, idx) =>
               idx % 2 === 0 ? (
-                <div className={`${colors[item]} flex flex-col sm:grid sm:grid-cols-3 gap-6 items-center p-6 lg:p-12  border`}>
+                <div key={idx}  className={`${colors[item]} flex flex-col sm:grid sm:grid-cols-3 gap-6 items-center p-6 lg:p-12  border`}>
                   <div className="icon w-[250px] sm:w-full h-[150px] bg-slate-600 rounded-lg overflow-hidden shadow ">
                     img
                   </div>

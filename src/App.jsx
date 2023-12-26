@@ -9,6 +9,7 @@ import Steps from "./components/Steps";
 import Campaign from "./components/Campaign";
 import Testimonial from "./components/Testimonial";
 import FAQs from "./components/FAQ";
+import PricingCard from "./components/PricingCard";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Super />
         <Steps />
         <Campaign />
+        <PricingCard />
         <Testimonial />
         <FAQs />
       </div>

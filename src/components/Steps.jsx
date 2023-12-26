@@ -8,7 +8,7 @@ const Steps = () => {
     <>
       <div className="flex text-center bg-white rounded-lg shadow flex-col gap-12">
         <div className="bg-800 py-6">
-          <h1 className="text-primary-800  text-3xl md:text-5xl font-bold w-[85%] md:w-[70%] mx-auto ">
+          <h1 className="text-primary-800  text-3xl md:text-5xl font-bold w-[85%] md:w-[60%] mx-auto ">
             Here are the detailed steps on how to get started
           </h1>
         </div>

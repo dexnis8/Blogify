@@ -46,8 +46,18 @@ body {
     rgba(8, 8, 67, 1) 100%
   );
 }
-.steps{
-  background: linear-gradient(189deg, rgba(236,236,244,1) 35%, rgba(252,252,252,1) 81%, rgba(252,252,252,1) 98%, rgba(252,252,252,0) 100%);
+.steps {
+  background: linear-gradient(
+    189deg,
+    rgba(236, 236, 244, 1) 35%,
+    rgba(252, 252, 252, 1) 81%,
+    rgba(252, 252, 252, 1) 98%,
+    rgba(252, 252, 252, 0) 100%
+  );
+}
+.pricing {
+  background: #a7cfdf;
+  background: linear-gradient(to right, #a7cfdf 0%, #23538a 100%);
 }
 @keyframes opacity {
   0%,

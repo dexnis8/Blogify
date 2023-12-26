@@ -46,7 +46,7 @@ const PricingCard = () => {
                   Affiliate market places
                 </li>
               </ul>
-              <div className="w-full md:w-[90%] mx-auto h-[200px] bg-slate-600 mt-5 mg:mt-8"></div>
+              <div className="w-full md:w-[90%] rounded-lg overflow-hidden mx-auto h-[200px] bg-slate-600 mt-5 mg:mt-8"></div>
             </div>
           ))}
           {/* Card ends here */}
